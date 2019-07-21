@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB076A8E22E443DF00A0567E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB076A8D22E443DF00A0567E /* AppDelegate.swift */; };
+		CB076A9022E443DF00A0567E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB076A8F22E443DF00A0567E /* ViewController.swift */; };
+		CB076A9322E443DF00A0567E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB076A9122E443DF00A0567E /* Main.storyboard */; };
+		CB076A9622E443DF00A0567E /* FalabellaiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB076A9422E443DF00A0567E /* FalabellaiOS.xcdatamodeld */; };
+		CB076A9822E443DF00A0567E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB076A9722E443DF00A0567E /* Assets.xcassets */; };
+		CB076A9B22E443DF00A0567E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB076A9922E443DF00A0567E /* LaunchScreen.storyboard */; };
+		CB076AA622E443DF00A0567E /* FalabellaiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB076AA522E443DF00A0567E /* FalabellaiOSTests.swift */; };
+		CB076AB122E443DF00A0567E /* FalabellaiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB076AB022E443DF00A0567E /* FalabellaiOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB076AA222E443DF00A0567E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB076A8222E443DF00A0567E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB076A8922E443DF00A0567E;
+			remoteInfo = FalabellaiOS;
+		};
+		CB076AAD22E443DF00A0567E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB076A8222E443DF00A0567E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB076A8922E443DF00A0567E;
+			remoteInfo = FalabellaiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB076A8A22E443DF00A0567E /* FalabellaiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FalabellaiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB076A8D22E443DF00A0567E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB076A8F22E443DF00A0567E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB076A9222E443DF00A0567E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB076A9522E443DF00A0567E /* FalabellaiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FalabellaiOS.xcdatamodel; sourceTree = "<group>"; };
+		CB076A9722E443DF00A0567E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB076A9A22E443DF00A0567E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB076A9C22E443DF00A0567E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB076AA122E443DF00A0567E /* FalabellaiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalabellaiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB076AA522E443DF00A0567E /* FalabellaiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalabellaiOSTests.swift; sourceTree = "<group>"; };
+		CB076AA722E443DF00A0567E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB076AAC22E443DF00A0567E /* FalabellaiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalabellaiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB076AB022E443DF00A0567E /* FalabellaiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalabellaiOSUITests.swift; sourceTree = "<group>"; };
+		CB076AB222E443DF00A0567E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB076A8722E443DF00A0567E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB076A9E22E443DF00A0567E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB076AA922E443DF00A0567E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB076A8122E443DF00A0567E = {
+			isa = PBXGroup;
+			children = (
+				CB076A8C22E443DF00A0567E /* FalabellaiOS */,
+				CB076AA422E443DF00A0567E /* FalabellaiOSTests */,
+				CB076AAF22E443DF00A0567E /* FalabellaiOSUITests */,
+				CB076A8B22E443DF00A0567E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB076A8B22E443DF00A0567E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB076A8A22E443DF00A0567E /* FalabellaiOS.app */,
+				CB076AA122E443DF00A0567E /* FalabellaiOSTests.xctest */,
+				CB076AAC22E443DF00A0567E /* FalabellaiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB076A8C22E443DF00A0567E /* FalabellaiOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB076A8D22E443DF00A0567E /* AppDelegate.swift */,
+				CB076A8F22E443DF00A0567E /* ViewController.swift */,
+				CB076A9122E443DF00A0567E /* Main.storyboard */,
+				CB076A9722E443DF00A0567E /* Assets.xcassets */,
+				CB076A9922E443DF00A0567E /* LaunchScreen.storyboard */,
+				CB076A9C22E443DF00A0567E /* Info.plist */,
+				CB076A9422E443DF00A0567E /* FalabellaiOS.xcdatamodeld */,
+			);
+			path = FalabellaiOS;
+			sourceTree = "<group>";
+		};
+		CB076AA422E443DF00A0567E /* FalabellaiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB076AA522E443DF00A0567E /* FalabellaiOSTests.swift */,
+				CB076AA722E443DF00A0567E /* Info.plist */,
+			);
+			path = FalabellaiOSTests;
+			sourceTree = "<group>";
+		};
+		CB076AAF22E443DF00A0567E /* FalabellaiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB076AB022E443DF00A0567E /* FalabellaiOSUITests.swift */,
+				CB076AB222E443DF00A0567E /* Info.plist */,
+			);
+			path = FalabellaiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB076A8922E443DF00A0567E /* FalabellaiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB076AB522E443DF00A0567E /* Build configuration list for PBXNativeTarget "FalabellaiOS" */;
+			buildPhases = (
+				CB076A8622E443DF00A0567E /* Sources */,
+				CB076A8722E443DF00A0567E /* Frameworks */,
+				CB076A8822E443DF00A0567E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FalabellaiOS;
+			productName = FalabellaiOS;
+			productReference = CB076A8A22E443DF00A0567E /* FalabellaiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB076AA022E443DF00A0567E /* FalabellaiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB076AB822E443DF00A0567E /* Build configuration list for PBXNativeTarget "FalabellaiOSTests" */;
+			buildPhases = (
+				CB076A9D22E443DF00A0567E /* Sources */,
+				CB076A9E22E443DF00A0567E /* Frameworks */,
+				CB076A9F22E443DF00A0567E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB076AA322E443DF00A0567E /* PBXTargetDependency */,
+			);
+			name = FalabellaiOSTests;
+			productName = FalabellaiOSTests;
+			productReference = CB076AA122E443DF00A0567E /* FalabellaiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB076AAB22E443DF00A0567E /* FalabellaiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB076ABB22E443DF00A0567E /* Build configuration list for PBXNativeTarget "FalabellaiOSUITests" */;
+			buildPhases = (
+				CB076AA822E443DF00A0567E /* Sources */,
+				CB076AA922E443DF00A0567E /* Frameworks */,
+				CB076AAA22E443DF00A0567E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB076AAE22E443DF00A0567E /* PBXTargetDependency */,
+			);
+			name = FalabellaiOSUITests;
+			productName = FalabellaiOSUITests;
+			productReference = CB076AAC22E443DF00A0567E /* FalabellaiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB076A8222E443DF00A0567E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Rajagopal Ganesan";
+				TargetAttributes = {
+					CB076A8922E443DF00A0567E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CB076AA022E443DF00A0567E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CB076A8922E443DF00A0567E;
+					};
+					CB076AAB22E443DF00A0567E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CB076A8922E443DF00A0567E;
+					};
+				};
+			};
+			buildConfigurationList = CB076A8522E443DF00A0567E /* Build configuration list for PBXProject "FalabellaiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB076A8122E443DF00A0567E;
+			productRefGroup = CB076A8B22E443DF00A0567E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB076A8922E443DF00A0567E /* FalabellaiOS */,
+				CB076AA022E443DF00A0567E /* FalabellaiOSTests */,
+				CB076AAB22E443DF00A0567E /* FalabellaiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB076A8822E443DF00A0567E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB076A9B22E443DF00A0567E /* LaunchScreen.storyboard in Resources */,
+				CB076A9822E443DF00A0567E /* Assets.xcassets in Resources */,
+				CB076A9322E443DF00A0567E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB076A9F22E443DF00A0567E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB076AAA22E443DF00A0567E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB076A8622E443DF00A0567E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB076A9022E443DF00A0567E /* ViewController.swift in Sources */,
+				CB076A8E22E443DF00A0567E /* AppDelegate.swift in Sources */,
+				CB076A9622E443DF00A0567E /* FalabellaiOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB076A9D22E443DF00A0567E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB076AA622E443DF00A0567E /* FalabellaiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB076AA822E443DF00A0567E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB076AB122E443DF00A0567E /* FalabellaiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB076AA322E443DF00A0567E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB076A8922E443DF00A0567E /* FalabellaiOS */;
+			targetProxy = CB076AA222E443DF00A0567E /* PBXContainerItemProxy */;
+		};
+		CB076AAE22E443DF00A0567E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB076A8922E443DF00A0567E /* FalabellaiOS */;
+			targetProxy = CB076AAD22E443DF00A0567E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB076A9122E443DF00A0567E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB076A9222E443DF00A0567E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB076A9922E443DF00A0567E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB076A9A22E443DF00A0567E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB076AB322E443DF00A0567E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB076AB422E443DF00A0567E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB076AB622E443DF00A0567E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KY9FTZ848;
+				INFOPLIST_FILE = FalabellaiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.FalabellaiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB076AB722E443DF00A0567E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KY9FTZ848;
+				INFOPLIST_FILE = FalabellaiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.FalabellaiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB076AB922E443DF00A0567E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KY9FTZ848;
+				INFOPLIST_FILE = FalabellaiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.FalabellaiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FalabellaiOS.app/FalabellaiOS";
+			};
+			name = Debug;
+		};
+		CB076ABA22E443DF00A0567E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KY9FTZ848;
+				INFOPLIST_FILE = FalabellaiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.FalabellaiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FalabellaiOS.app/FalabellaiOS";
+			};
+			name = Release;
+		};
+		CB076ABC22E443DF00A0567E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KY9FTZ848;
+				INFOPLIST_FILE = FalabellaiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.FalabellaiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FalabellaiOS;
+			};
+			name = Debug;
+		};
+		CB076ABD22E443DF00A0567E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KY9FTZ848;
+				INFOPLIST_FILE = FalabellaiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.FalabellaiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FalabellaiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB076A8522E443DF00A0567E /* Build configuration list for PBXProject "FalabellaiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB076AB322E443DF00A0567E /* Debug */,
+				CB076AB422E443DF00A0567E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB076AB522E443DF00A0567E /* Build configuration list for PBXNativeTarget "FalabellaiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB076AB622E443DF00A0567E /* Debug */,
+				CB076AB722E443DF00A0567E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB076AB822E443DF00A0567E /* Build configuration list for PBXNativeTarget "FalabellaiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB076AB922E443DF00A0567E /* Debug */,
+				CB076ABA22E443DF00A0567E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB076ABB22E443DF00A0567E /* Build configuration list for PBXNativeTarget "FalabellaiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB076ABC22E443DF00A0567E /* Debug */,
+				CB076ABD22E443DF00A0567E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB076A9422E443DF00A0567E /* FalabellaiOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB076A9522E443DF00A0567E /* FalabellaiOS.xcdatamodel */,
+			);
+			currentVersion = CB076A9522E443DF00A0567E /* FalabellaiOS.xcdatamodel */;
+			path = FalabellaiOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB076A8222E443DF00A0567E /* Project object */;
+}
