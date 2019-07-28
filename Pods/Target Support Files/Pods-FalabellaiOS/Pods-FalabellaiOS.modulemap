@@ -1,0 +1,6 @@
+framework module Pods_FalabellaiOS {
+  umbrella header "Pods-FalabellaiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

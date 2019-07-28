@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1424975DB5CF641023FDFE /* Pods_FalabellaiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F5B33F667ED45FCC0B21D3 /* Pods_FalabellaiOSTests.framework */; };
+		6061354FDCE36D4F8C9E0493 /* Pods_FalabellaiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59806A0172C6D8E17629C827 /* Pods_FalabellaiOS.framework */; };
+		65C03EFD3352221962E5A25E /* Pods_FalabellaiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48BDC4D1B7577CB0E41511D /* Pods_FalabellaiOSUITests.framework */; };
 		CB076A8E22E443DF00A0567E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB076A8D22E443DF00A0567E /* AppDelegate.swift */; };
 		CB076A9022E443DF00A0567E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB076A8F22E443DF00A0567E /* ViewController.swift */; };
 		CB076A9322E443DF00A0567E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB076A9122E443DF00A0567E /* Main.storyboard */; };
@@ -15,6 +18,16 @@
 		CB076A9B22E443DF00A0567E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB076A9922E443DF00A0567E /* LaunchScreen.storyboard */; };
 		CB076AA622E443DF00A0567E /* FalabellaiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB076AA522E443DF00A0567E /* FalabellaiOSTests.swift */; };
 		CB076AB122E443DF00A0567E /* FalabellaiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB076AB022E443DF00A0567E /* FalabellaiOSUITests.swift */; };
+		CB076AC522E4449700A0567E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB076AC422E4449700A0567E /* Constants.swift */; };
+		CB076AC722E444C600A0567E /* DisplayAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB076AC622E444C600A0567E /* DisplayAlertView.swift */; };
+		CB076AC922E4471200A0567E /* DisplayActivitySpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB076AC822E4471200A0567E /* DisplayActivitySpinner.swift */; };
+		CB076ACB22E453CF00A0567E /* ApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB076ACA22E453CF00A0567E /* ApiController.swift */; };
+		CB50F15722EC6100005DD044 /* BeerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50F15622EC6100005DD044 /* BeerModel.swift */; };
+		CB50F15922EC623F005DD044 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50F15822EC623F005DD044 /* HomePageViewModel.swift */; };
+		CB50F15B22EC75C3005DD044 /* BeerSelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50F15A22EC75C3005DD044 /* BeerSelectButton.swift */; };
+		CB50F15D22EC785D005DD044 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50F15C22EC785D005DD044 /* HomeCollectionViewCell.swift */; };
+		CB50F15F22EC9BFF005DD044 /* BadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50F15E22EC9BFF005DD044 /* BadgeButton.swift */; };
+		CB50F16122ECB29B005DD044 /* PlaceOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50F16022ECB29B005DD044 /* PlaceOrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0028AE77867D499A261C1238 /* Pods-FalabellaiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalabellaiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-FalabellaiOSUITests/Pods-FalabellaiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		09E7A51732733E37C83CE009 /* Pods-FalabellaiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalabellaiOS.release.xcconfig"; path = "Target Support Files/Pods-FalabellaiOS/Pods-FalabellaiOS.release.xcconfig"; sourceTree = "<group>"; };
+		3952474F2AC56EB85A9F8241 /* Pods-FalabellaiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalabellaiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-FalabellaiOSUITests/Pods-FalabellaiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A5FD5D24BD4A714AA68B26A /* Pods-FalabellaiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalabellaiOSTests.release.xcconfig"; path = "Target Support Files/Pods-FalabellaiOSTests/Pods-FalabellaiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		40F5B33F667ED45FCC0B21D3 /* Pods_FalabellaiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FalabellaiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59806A0172C6D8E17629C827 /* Pods_FalabellaiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FalabellaiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8477BA8944ED4E57D8233CC /* Pods-FalabellaiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalabellaiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-FalabellaiOSTests/Pods-FalabellaiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C48BDC4D1B7577CB0E41511D /* Pods_FalabellaiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FalabellaiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB076A8A22E443DF00A0567E /* FalabellaiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FalabellaiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB076A8D22E443DF00A0567E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB076A8F22E443DF00A0567E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +70,17 @@
 		CB076AAC22E443DF00A0567E /* FalabellaiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalabellaiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB076AB022E443DF00A0567E /* FalabellaiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalabellaiOSUITests.swift; sourceTree = "<group>"; };
 		CB076AB222E443DF00A0567E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB076AC422E4449700A0567E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CB076AC622E444C600A0567E /* DisplayAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayAlertView.swift; sourceTree = "<group>"; };
+		CB076AC822E4471200A0567E /* DisplayActivitySpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayActivitySpinner.swift; sourceTree = "<group>"; };
+		CB076ACA22E453CF00A0567E /* ApiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
+		CB50F15622EC6100005DD044 /* BeerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerModel.swift; sourceTree = "<group>"; };
+		CB50F15822EC623F005DD044 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		CB50F15A22EC75C3005DD044 /* BeerSelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerSelectButton.swift; sourceTree = "<group>"; };
+		CB50F15C22EC785D005DD044 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		CB50F15E22EC9BFF005DD044 /* BadgeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeButton.swift; sourceTree = "<group>"; };
+		CB50F16022ECB29B005DD044 /* PlaceOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderViewController.swift; sourceTree = "<group>"; };
+		DD6787D3B5B64D59C23F6326 /* Pods-FalabellaiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalabellaiOS.debug.xcconfig"; path = "Target Support Files/Pods-FalabellaiOS/Pods-FalabellaiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6061354FDCE36D4F8C9E0493 /* Pods_FalabellaiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1424975DB5CF641023FDFE /* Pods_FalabellaiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +104,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C03EFD3352221962E5A25E /* Pods_FalabellaiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5573DC08039133B718CD25CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD6787D3B5B64D59C23F6326 /* Pods-FalabellaiOS.debug.xcconfig */,
+				09E7A51732733E37C83CE009 /* Pods-FalabellaiOS.release.xcconfig */,
+				A8477BA8944ED4E57D8233CC /* Pods-FalabellaiOSTests.debug.xcconfig */,
+				3A5FD5D24BD4A714AA68B26A /* Pods-FalabellaiOSTests.release.xcconfig */,
+				0028AE77867D499A261C1238 /* Pods-FalabellaiOSUITests.debug.xcconfig */,
+				3952474F2AC56EB85A9F8241 /* Pods-FalabellaiOSUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CB076A8122E443DF00A0567E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +131,8 @@
 				CB076AA422E443DF00A0567E /* FalabellaiOSTests */,
 				CB076AAF22E443DF00A0567E /* FalabellaiOSUITests */,
 				CB076A8B22E443DF00A0567E /* Products */,
+				5573DC08039133B718CD25CF /* Pods */,
+				CBD7799025DC92D3ECCB42C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +150,12 @@
 			isa = PBXGroup;
 			children = (
 				CB076A8D22E443DF00A0567E /* AppDelegate.swift */,
-				CB076A8F22E443DF00A0567E /* ViewController.swift */,
+				CB076AC322E4447D00A0567E /* Networking */,
+				CB076AC222E4447200A0567E /* CollectionViewCells */,
+				CB076AC122E4446B00A0567E /* Utilities */,
+				CB076AC022E4446400A0567E /* Model */,
+				CB076ABF22E4444300A0567E /* ViewModel */,
+				CB076ABE22E4442900A0567E /* View */,
 				CB076A9122E443DF00A0567E /* Main.storyboard */,
 				CB076A9722E443DF00A0567E /* Assets.xcassets */,
 				CB076A9922E443DF00A0567E /* LaunchScreen.storyboard */,
@@ -128,6 +183,69 @@
 			path = FalabellaiOSUITests;
 			sourceTree = "<group>";
 		};
+		CB076ABE22E4442900A0567E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB076A8F22E443DF00A0567E /* ViewController.swift */,
+				CB50F16022ECB29B005DD044 /* PlaceOrderViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB076ABF22E4444300A0567E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CB50F15822EC623F005DD044 /* HomePageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CB076AC022E4446400A0567E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB50F15622EC6100005DD044 /* BeerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB076AC122E4446B00A0567E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CB076AC422E4449700A0567E /* Constants.swift */,
+				CB076AC622E444C600A0567E /* DisplayAlertView.swift */,
+				CB076AC822E4471200A0567E /* DisplayActivitySpinner.swift */,
+				CB50F15A22EC75C3005DD044 /* BeerSelectButton.swift */,
+				CB50F15E22EC9BFF005DD044 /* BadgeButton.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CB076AC222E4447200A0567E /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				CB50F15C22EC785D005DD044 /* HomeCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		CB076AC322E4447D00A0567E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CB076ACA22E453CF00A0567E /* ApiController.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CBD7799025DC92D3ECCB42C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59806A0172C6D8E17629C827 /* Pods_FalabellaiOS.framework */,
+				40F5B33F667ED45FCC0B21D3 /* Pods_FalabellaiOSTests.framework */,
+				C48BDC4D1B7577CB0E41511D /* Pods_FalabellaiOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB076AB522E443DF00A0567E /* Build configuration list for PBXNativeTarget "FalabellaiOS" */;
 			buildPhases = (
+				D47B3309E9999AE4F5F55618 /* [CP] Check Pods Manifest.lock */,
 				CB076A8622E443DF00A0567E /* Sources */,
 				CB076A8722E443DF00A0567E /* Frameworks */,
 				CB076A8822E443DF00A0567E /* Resources */,
+				D35FDA3AD34862A7B3E0A85A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB076AB822E443DF00A0567E /* Build configuration list for PBXNativeTarget "FalabellaiOSTests" */;
 			buildPhases = (
+				D1A6872F170E1288530690F6 /* [CP] Check Pods Manifest.lock */,
 				CB076A9D22E443DF00A0567E /* Sources */,
 				CB076A9E22E443DF00A0567E /* Frameworks */,
 				CB076A9F22E443DF00A0567E /* Resources */,
@@ -170,6 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB076ABB22E443DF00A0567E /* Build configuration list for PBXNativeTarget "FalabellaiOSUITests" */;
 			buildPhases = (
+				62E83C94C60C690D4D845F68 /* [CP] Check Pods Manifest.lock */,
 				CB076AA822E443DF00A0567E /* Sources */,
 				CB076AA922E443DF00A0567E /* Frameworks */,
 				CB076AAA22E443DF00A0567E /* Resources */,
@@ -254,14 +376,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62E83C94C60C690D4D845F68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FalabellaiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A6872F170E1288530690F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FalabellaiOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D35FDA3AD34862A7B3E0A85A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FalabellaiOS/Pods-FalabellaiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FalabellaiOS/Pods-FalabellaiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FalabellaiOS/Pods-FalabellaiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D47B3309E9999AE4F5F55618 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FalabellaiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB076A8622E443DF00A0567E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CB076A9022E443DF00A0567E /* ViewController.swift in Sources */,
+				CB076AC922E4471200A0567E /* DisplayActivitySpinner.swift in Sources */,
+				CB50F15922EC623F005DD044 /* HomePageViewModel.swift in Sources */,
+				CB50F16122ECB29B005DD044 /* PlaceOrderViewController.swift in Sources */,
+				CB50F15F22EC9BFF005DD044 /* BadgeButton.swift in Sources */,
+				CB076ACB22E453CF00A0567E /* ApiController.swift in Sources */,
 				CB076A8E22E443DF00A0567E /* AppDelegate.swift in Sources */,
+				CB50F15B22EC75C3005DD044 /* BeerSelectButton.swift in Sources */,
+				CB50F15D22EC785D005DD044 /* HomeCollectionViewCell.swift in Sources */,
+				CB076AC722E444C600A0567E /* DisplayAlertView.swift in Sources */,
+				CB50F15722EC6100005DD044 /* BeerModel.swift in Sources */,
 				CB076A9622E443DF00A0567E /* FalabellaiOS.xcdatamodeld in Sources */,
+				CB076AC522E4449700A0567E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,11 +652,13 @@
 		};
 		CB076AB622E443DF00A0567E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6787D3B5B64D59C23F6326 /* Pods-FalabellaiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KY9FTZ848;
 				INFOPLIST_FILE = FalabellaiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +672,13 @@
 		};
 		CB076AB722E443DF00A0567E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E7A51732733E37C83CE009 /* Pods-FalabellaiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KY9FTZ848;
 				INFOPLIST_FILE = FalabellaiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +692,7 @@
 		};
 		CB076AB922E443DF00A0567E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8477BA8944ED4E57D8233CC /* Pods-FalabellaiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +714,7 @@
 		};
 		CB076ABA22E443DF00A0567E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5FD5D24BD4A714AA68B26A /* Pods-FalabellaiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +736,7 @@
 		};
 		CB076ABC22E443DF00A0567E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0028AE77867D499A261C1238 /* Pods-FalabellaiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +757,7 @@
 		};
 		CB076ABD22E443DF00A0567E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3952474F2AC56EB85A9F8241 /* Pods-FalabellaiOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

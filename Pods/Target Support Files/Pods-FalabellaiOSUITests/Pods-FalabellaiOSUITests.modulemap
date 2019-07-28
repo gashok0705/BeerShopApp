@@ -1,0 +1,6 @@
+framework module Pods_FalabellaiOSUITests {
+  umbrella header "Pods-FalabellaiOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
